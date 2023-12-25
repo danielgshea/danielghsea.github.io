@@ -72,6 +72,11 @@ ion-text {
   font-size: 1.5em;
 }
 
+.content-text1-dark {
+  color: black;
+  font-size: 1.5em;
+}
+
 ion-col {
   padding: 0;
   margin: 0;
@@ -85,6 +90,10 @@ ion-row {
 ion-grid {
   padding: 0;
   margin: 0;
+}
+
+.pink-border {
+  border: 1px dashed pink;
 }
 
 .home-card {
@@ -103,6 +112,10 @@ ion-grid {
   transition: 1500ms;
 }
 
+.home-card.show {
+  opacity: 1;
+}
+
 .router-link {
   display: flex;
   justify-content: center;
@@ -113,10 +126,6 @@ ion-grid {
 
 .router-link:hover {
   cursor: pointer;
-}
-
-.home-card.show {
-  opacity: 1;
 }
 
 .home-card.pic1 {

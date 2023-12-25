@@ -4,13 +4,13 @@ import {
   IonContent,
   IonGrid,
   IonPage,
-  IonRouterLink,
   IonRow,
   IonText,
 } from "@ionic/react";
 import React from "react";
 import Typewriter from "typewriter-effect";
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 const Home: React.FC = () => {
   const cards = document.getElementsByClassName("home-card");
@@ -50,36 +50,36 @@ const Home: React.FC = () => {
           <IonRow className="home-row">
             <IonCol>
               <IonCard className="home-card pic1">
-                <IonRouterLink className="router-link" href="aboutme">
+                <Link className="router-link" to="aboutme#/">
                   <IonText className="header-text2">About Me</IonText>
-                </IonRouterLink>
+                </Link>
               </IonCard>
             </IonCol>
           </IonRow>
           <IonRow className="home-row">
             <IonCol>
               <IonCard className="home-card pic2">
-                <IonRouterLink className="router-link" href="projects">
+                <Link className="router-link" to="projects#/">
                   <IonText className="header-text2">Projects</IonText>
-                </IonRouterLink>
+                </Link>
               </IonCard>
             </IonCol>
           </IonRow>
           <IonRow className="home-row">
             <IonCol>
               <IonCard className="home-card pic3">
-                <IonRouterLink className="router-link" href="courswork">
+                <Link className="router-link" to="coursework#/">
                   <IonText className="header-text2">Coursework</IonText>
-                </IonRouterLink>
+                </Link>
               </IonCard>
             </IonCol>
           </IonRow>
           <IonRow className="home-row">
             <IonCol>
               <IonCard className="home-card pic4">
-                <IonRouterLink className="router-link" href="contact">
+                <Link className="router-link" to="contact#/">
                   <IonText className="header-text2">Contact</IonText>
-                </IonRouterLink>
+                </Link>
               </IonCard>
             </IonCol>
           </IonRow>

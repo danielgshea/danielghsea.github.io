@@ -1,0 +1,28 @@
+.aboutme-grid {
+  background: url("../Assets/COE1.jpg"),
+    linear-gradient(45deg, var(--color4), var(--color5));
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-position: center;
+}
+
+ion-grid {
+  height: 100%;
+}
+
+ion-col {
+  margin: 2em;
+}
+
+ion-button {
+  --background: white;
+}
+
+ion-icon {
+  color: white;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}

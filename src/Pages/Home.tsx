@@ -3,15 +3,10 @@ import {
   IonCol,
   IonContent,
   IonGrid,
-  IonHeader,
-  IonIcon,
-  IonItem,
   IonPage,
   IonRouterLink,
   IonRow,
   IonText,
-  IonTitle,
-  IonToolbar,
 } from "@ionic/react";
 import React from "react";
 import Typewriter from "typewriter-effect";
@@ -22,10 +17,9 @@ const Home: React.FC = () => {
 
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
-      console.log(entry);
       entry.target.classList.toggle("show", entry.isIntersecting);
     });
-  }, {});
+  });
 
   Array.from(cards).forEach((card) => {
     observer.observe(card);
@@ -33,22 +27,15 @@ const Home: React.FC = () => {
 
   return (
     <IonPage>
-      <IonHeader className="home-header">
-        <IonToolbar className="home-toolbar">
-          <IonTitle>
-            <IonText className="heading1">Home</IonText>
-          </IonTitle>
-        </IonToolbar>
-      </IonHeader>
       <IonContent className="home-content">
         <IonGrid className="home-grid">
           <IonRow className="home-row">
-            <IonCol className="home-col ion-justify-content-center">
+            <IonCol className="home-col">
               <IonText className="header-text1">Daniel G. Shea</IonText>
             </IonCol>
           </IonRow>
           <IonRow className="home-row">
-            <IonCol className="home-col ion-justify-content-center">
+            <IonCol className="home-col">
               <IonText className="content-text1">
                 <Typewriter
                   options={{
@@ -62,29 +49,37 @@ const Home: React.FC = () => {
           </IonRow>
           <IonRow className="home-row">
             <IonCol>
-              <IonCard className="home-card">
-                <IonText className="header-text2">Card 1</IonText>
+              <IonCard className="home-card pic1">
+                <IonRouterLink className="router-link" href="aboutme">
+                  <IonText className="header-text2">About Me</IonText>
+                </IonRouterLink>
               </IonCard>
             </IonCol>
           </IonRow>
           <IonRow className="home-row">
             <IonCol>
-              <IonCard className="home-card">
-                <IonText className="header-text2">Card 2</IonText>
+              <IonCard className="home-card pic2">
+                <IonRouterLink className="router-link" href="projects">
+                  <IonText className="header-text2">Projects</IonText>
+                </IonRouterLink>
               </IonCard>
             </IonCol>
           </IonRow>
           <IonRow className="home-row">
             <IonCol>
-              <IonCard className="home-card">
-                <IonText className="header-text2">Card 3</IonText>
+              <IonCard className="home-card pic3">
+                <IonRouterLink className="router-link" href="courswork">
+                  <IonText className="header-text2">Coursework</IonText>
+                </IonRouterLink>
               </IonCard>
             </IonCol>
           </IonRow>
           <IonRow className="home-row">
             <IonCol>
-              <IonCard className="home-card">
-                <IonText className="header-text2">Card 4</IonText>
+              <IonCard className="home-card pic4">
+                <IonRouterLink className="router-link" href="contact">
+                  <IonText className="header-text2">Contact</IonText>
+                </IonRouterLink>
               </IonCard>
             </IonCol>
           </IonRow>

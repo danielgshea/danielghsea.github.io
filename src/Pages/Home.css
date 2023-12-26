@@ -139,14 +139,6 @@ ion-row {
   opacity: 1;
 }
 
-.router-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 3em;
-  width: 100%;
-}
-
 .router-link:hover {
   cursor: pointer;
 }

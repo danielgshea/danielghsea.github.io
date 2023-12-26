@@ -35,7 +35,7 @@ const Home: React.FC = () => {
   function scrollToBottom() {
     // Passing a duration to the method makes it so the scroll slowly
     // goes to the bottom instead of instantly
-    contentRef.current?.scrollToBottom(500);
+    contentRef.current?.scrollToBottom(1000);
   }
 
   return (
@@ -78,38 +78,38 @@ const Home: React.FC = () => {
         <IonGrid className="home-grid">
           <IonRow className="grid2-row">
             <IonCol className="grid2-col">
-              <div className="home-card pic1">
-                <Link className="router-link" to="about#/">
+              <Link className="router-link" to="about#/">
+                <div className="home-card pic1">
                   <IonText className="header-text2">About</IonText>
-                </Link>
-              </div>
+                </div>
+              </Link>
             </IonCol>
           </IonRow>
           <IonRow className="grid2-row">
             <IonCol className="grid2-col">
-              <div className="home-card pic2">
-                <Link className="router-link" to="projects#/">
+              <Link className="router-link" to="projects#/">
+                <div className="home-card pic2">
                   <IonText className="header-text2">Projects</IonText>
-                </Link>
-              </div>
+                </div>
+              </Link>
             </IonCol>
           </IonRow>
           <IonRow className="grid2-row">
             <IonCol className="grid2-col">
-              <div className="home-card pic3">
-                <Link className="router-link" to="coursework#/">
+              <Link className="router-link" to="coursework#/">
+                <div className="home-card pic3">
                   <IonText className="header-text2">Coursework</IonText>
-                </Link>
-              </div>
+                </div>
+              </Link>
             </IonCol>
           </IonRow>
           <IonRow className="grid2-row">
             <IonCol className="grid2-col">
-              <div className="home-card pic4">
-                <Link className="router-link" to="contact#/">
+              <Link className="router-link" to="contact#/">
+                <div className="home-card pic4">
                   <IonText className="header-text2">Contact</IonText>
-                </Link>
-              </div>
+                </div>
+              </Link>
             </IonCol>
           </IonRow>
         </IonGrid>

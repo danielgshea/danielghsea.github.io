@@ -5,3 +5,19 @@
   background-size: cover;
   background-position: center;
 }
+
+.projects-content {
+  --background: none;
+}
+
+.projects-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.projects-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

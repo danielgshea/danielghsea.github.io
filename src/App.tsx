@@ -10,6 +10,7 @@ import ContactMe from "./Pages/ContactMe";
 import Projects from "./Pages/Projects";
 import Coursework from "./Pages/Coursework";
 import AboutMe from "./Pages/AboutMe";
+import Navbar from "./Components/Navbar";
 
 setupIonicReact();
 const App: React.FC = () => {
@@ -21,7 +22,7 @@ const App: React.FC = () => {
       <IonReactHashRouter>
         <IonRouterOutlet>
           <Route exact path="/" component={Home} />
-          <Route path="/aboutme" component={AboutMe} />
+          <Route path="/about" component={AboutMe} />
           <Route path="/projects" component={Projects} />
           <Route path="/coursework" component={Coursework} />
           <Route path="/contact" component={ContactMe} />

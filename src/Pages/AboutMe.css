@@ -1,4 +1,4 @@
-.aboutme-grid {
+.background {
   background: url("../Assets/COE1.jpg"),
     linear-gradient(45deg, var(--color4), var(--color5));
   background-blend-mode: soft-light;
@@ -6,12 +6,37 @@
   background-position: center;
 }
 
-ion-grid {
-  height: 100%;
+.aboutme-content {
+  --background: none;
+}
+
+.aboutme-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aboutme-row {
+  margin: 2em;
+}
+
+.aboutme-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 ion-col {
   margin: 2em;
+}
+
+.center-col {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-container {
+  height: 10%;
 }
 
 ion-button {

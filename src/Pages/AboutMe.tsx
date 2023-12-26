@@ -16,24 +16,18 @@ import "./AboutMe.css";
 import { cog, construct, school, barChart } from "ionicons/icons";
 import Navbar from "../Components/Navbar";
 import { useHistory } from "react-router-dom";
+import HomeButton from "../Components/HomeButton";
 
 const AboutMe: React.FC = () => {
   const history = useHistory();
 
   return (
-    <IonPage className="background">
+    <IonPage className="aboutme-background">
       <IonContent className="aboutme-content">
         <IonGrid className="aboutme-grid">
           <IonRow className="aboutme-row">
             <IonCol className="center-col">
-              <IonButton
-                onClick={() => {
-                  history.push("/");
-                }}
-                shape="round"
-              >
-                <IonText className="content-text1-dark">Home</IonText>
-              </IonButton>
+              <HomeButton />
             </IonCol>
           </IonRow>
           <IonRow className="aboutme-row">

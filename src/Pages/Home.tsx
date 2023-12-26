@@ -77,39 +77,39 @@ const Home: React.FC = () => {
         </IonGrid>
         <IonGrid className="home-grid">
           <IonRow className="grid2-row">
-            <IonCol>
-              <IonCard className="home-card pic1">
+            <IonCol className="grid2-col">
+              <div className="home-card pic1">
                 <Link className="router-link" to="about#/">
                   <IonText className="header-text2">About</IonText>
                 </Link>
-              </IonCard>
+              </div>
             </IonCol>
           </IonRow>
           <IonRow className="grid2-row">
-            <IonCol>
-              <IonCard className="home-card pic2">
+            <IonCol className="grid2-col">
+              <div className="home-card pic2">
                 <Link className="router-link" to="projects#/">
                   <IonText className="header-text2">Projects</IonText>
                 </Link>
-              </IonCard>
+              </div>
             </IonCol>
           </IonRow>
           <IonRow className="grid2-row">
-            <IonCol>
-              <IonCard className="home-card pic3">
+            <IonCol className="grid2-col">
+              <div className="home-card pic3">
                 <Link className="router-link" to="coursework#/">
                   <IonText className="header-text2">Coursework</IonText>
                 </Link>
-              </IonCard>
+              </div>
             </IonCol>
           </IonRow>
           <IonRow className="grid2-row">
-            <IonCol>
-              <IonCard className="home-card pic4">
+            <IonCol className="grid2-col">
+              <div className="home-card pic4">
                 <Link className="router-link" to="contact#/">
                   <IonText className="header-text2">Contact</IonText>
                 </Link>
-              </IonCard>
+              </div>
             </IonCol>
           </IonRow>
         </IonGrid>

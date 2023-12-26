@@ -1,21 +1,20 @@
-import {
-  IonContent,
-  IonHeader,
-  IonPage,
-  IonTitle,
-  IonToolbar,
-} from "@ionic/react";
+import { IonCol, IonContent, IonGrid, IonPage, IonRow } from "@ionic/react";
 import React from "react";
+import HomeButton from "../Components/HomeButton";
+import "./Coursework.css";
 
 const Coursework: React.FC = () => {
   return (
-    <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Relevent Coursework</IonTitle>
-        </IonToolbar>
-      </IonHeader>
-      <IonContent className="ion-padding">Coming soon...</IonContent>
+    <IonPage className="coursework-background">
+      <IonContent className="aboutme-content">
+        <IonGrid className="aboutme-grid">
+          <IonRow className="aboutme-row">
+            <IonCol className="center-col">
+              <HomeButton />
+            </IonCol>
+          </IonRow>
+        </IonGrid>
+      </IonContent>
     </IonPage>
   );
 };

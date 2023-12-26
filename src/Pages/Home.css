@@ -19,6 +19,22 @@ ion-text {
   display: flex;
   justify-content: center;
   height: 25%;
+  margin: 0;
+  padding: 0;
+}
+
+.grid2-col {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.grid2-col:hover {
+  /* text-shadow: 1px 1px 2px rgb(228, 228, 228), 0 0 0.5em rgb(202, 202, 202),
+    0 0 0.2em rgb(129, 129, 129); */
+  font-size: 1.05em;
+  border-top: 5px solid rgba(37, 37, 37, 0.366);
+  border-bottom: 5px solid rgba(37, 37, 37, 0.366);
 }
 
 .header-row {
@@ -108,11 +124,12 @@ ion-row {
   justify-content: center;
   align-items: center;
   margin-left: 0em;
-  padding-top: 2.5em;
-  padding-bottom: 2.5em;
+  /* padding-top: 2.5em;
+  padding-bottom: 2.5em; */
   border-radius: 0;
   border: none;
   width: 100vw;
+  height: 100%;
   box-shadow: none !important;
   opacity: 0;
   transition: 1500ms;
@@ -172,7 +189,7 @@ ion-row {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 40px;
+  /* height: 40px; */
   display: block;
   background: linear-gradient(
       -45deg,
@@ -197,7 +214,7 @@ ion-row {
   top: 0;
   left: 0;
   width: 100%;
-  height: 40px;
+  /* height: 40px; */
   display: block;
   background: linear-gradient(
       -45deg,

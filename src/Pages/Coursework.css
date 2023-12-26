@@ -1,0 +1,7 @@
+.coursework-background {
+  background: url("../Assets/COE3.jfif"),
+    linear-gradient(45deg, var(--color4), var(--color5));
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-position: center;
+}

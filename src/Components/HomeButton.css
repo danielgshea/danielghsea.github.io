@@ -1,0 +1,15 @@
+.homebutton-icon {
+  opacity: 1;
+}
+
+.homebutton-text {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.homebutton {
+}
+
+.homebutton:hover {
+  --color: black;
+}

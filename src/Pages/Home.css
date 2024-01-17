@@ -9,6 +9,7 @@ ion-text {
 
 .home-grid {
   height: 100%;
+  z-index: 2;
 }
 
 .me-pic {
@@ -30,11 +31,8 @@ ion-text {
 }
 
 .grid2-col:hover {
-  /* text-shadow: 1px 1px 2px rgb(228, 228, 228), 0 0 0.5em rgb(202, 202, 202),
-    0 0 0.2em rgb(129, 129, 129); */
-  font-size: 1.05em;
-  border-top: 5px solid rgba(37, 37, 37, 0.366);
-  border-bottom: 5px solid rgba(37, 37, 37, 0.366);
+  opacity: 0.75;
+  transition: 500ms;
 }
 
 .header-row {
@@ -55,6 +53,32 @@ ion-text {
   align-items: center;
   padding: 0px;
   margin: 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.header-a,
+.header-b {
+  position: absolute;
+}
+
+.header-b {
+  display: flex;
+  pointer-events: all;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-a {
+  pointer-events: all;
+  top: 0;
+  left: 0;
 }
 
 .subtitle1-text {
@@ -229,6 +253,8 @@ ion-row {
 .scroll-button {
   --background: transparent;
   --background-hover: #dedede6e;
+  --background-activated: #78787800;
+  --background-focused: #90909000;
   --border: none;
   --box-shadow: none;
   --color: white;

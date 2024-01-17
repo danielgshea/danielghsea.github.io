@@ -24,12 +24,10 @@ const AboutMe: React.FC = () => {
   return (
     <IonPage className="aboutme-background">
       <IonContent className="aboutme-content">
+        <div className="aboutme-header">
+          <HomeButton />
+        </div>
         <IonGrid className="aboutme-grid">
-          <IonRow className="aboutme-row">
-            <IonCol className="center-col">
-              <HomeButton />
-            </IonCol>
-          </IonRow>
           <IonRow className="aboutme-row">
             <IonCol size="auto">
               <IonIcon icon={cog} size="large" />
@@ -64,8 +62,8 @@ const AboutMe: React.FC = () => {
             <IonCol offset="1">
               <IonText className="content-text1">
                 At North Carolina State University I was introduced to a
-                plethora of supportive mentors, professors, and colleages. In my
-                classes, I became proficient in computer science and
+                plethora of supportive mentors, professors, and colleagues. In
+                my classes, I became proficient in computer science and
                 mathematical topics alike. As a second year computer science
                 student, I have completed projects using Java and JUnit.
                 Currently, I am working on developing independent projects as

@@ -5,3 +5,30 @@
   background-size: cover;
   background-position: center;
 }
+
+.coursework-content {
+  --background: none;
+}
+
+.coursework-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 100px;
+  margin-top: 0;
+  background-color: var(--color1-transparent);
+}
+
+.coursework-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coursework-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}

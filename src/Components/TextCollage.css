@@ -1,0 +1,35 @@
+.text-container {
+  text-align: left; /* Align content to the left */
+}
+
+.text {
+  width: auto;
+  height: 100px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color4);
+  opacity: 0.05;
+}
+
+.text:hover {
+  opacity: 1;
+  color: var(--color3);
+  transition: 800ms;
+}
+
+.text-p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.text-p:hover {
+  font-size: 1.6rem;
+  text-align: center;
+  transition: 800ms;
+}

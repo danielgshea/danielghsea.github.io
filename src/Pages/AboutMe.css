@@ -10,10 +10,21 @@
   --background: none;
 }
 
+.aboutme-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
 .aboutme-grid {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 100px;
+  margin-top: 0;
+  background-color: var(--color1-transparent);
 }
 
 .aboutme-row {

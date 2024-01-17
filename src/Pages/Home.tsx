@@ -15,6 +15,7 @@ import "./Home.css";
 import { Link } from "react-router-dom";
 import Navbar from "../Components/Navbar";
 import { arrowDown } from "ionicons/icons";
+import TextCollage from "../Components/TextCollage";
 
 const Home: React.FC = () => {
   const cards = document.getElementsByClassName("home-card");
@@ -44,34 +45,46 @@ const Home: React.FC = () => {
         <IonGrid className="home-grid">
           <IonRow className="grid1-row">
             <IonCol className="home-col">
-              <IonGrid>
-                <IonRow>
-                  <IonCol className="home-col">
-                    <IonText className="header-text1">Daniel G. Shea</IonText>
-                  </IonCol>
-                </IonRow>
-                <IonCol className="home-col">
-                  <IonText className="content-text1">
-                    <Typewriter
-                      words={["Computer Science Student", "Software Engineer"]}
-                      cursor
-                      loop={false}
-                      cursorBlinking
-                    />
-                  </IonText>
-                </IonCol>
-                <IonRow className="arrow-row">
-                  <IonCol className="home-col">
-                    <IonButton
-                      className="scroll-button"
-                      onClick={scrollToBottom}
-                      size="large"
-                    >
-                      <IonIcon icon={arrowDown} />
-                    </IonButton>
-                  </IonCol>
-                </IonRow>
-              </IonGrid>
+              <div className="header-container">
+                <div className="header-a">
+                  <TextCollage></TextCollage>
+                </div>
+                <div className="header-b">
+                  <IonGrid>
+                    <IonRow>
+                      <IonCol className="home-col">
+                        <IonText className="header-text1">
+                          Daniel G. Shea
+                        </IonText>
+                      </IonCol>
+                    </IonRow>
+                    <IonCol className="home-col">
+                      <IonText className="content-text1">
+                        <Typewriter
+                          words={[
+                            "Computer Science Student",
+                            "Software Engineer",
+                          ]}
+                          cursor
+                          loop
+                          cursorBlinking
+                        />
+                      </IonText>
+                    </IonCol>
+                    <IonRow className="arrow-row">
+                      <IonCol className="home-col">
+                        <IonButton
+                          className="scroll-button"
+                          onClick={scrollToBottom}
+                          size="large"
+                        >
+                          <IonIcon icon={arrowDown} />
+                        </IonButton>
+                      </IonCol>
+                    </IonRow>
+                  </IonGrid>
+                </div>
+              </div>
             </IonCol>
           </IonRow>
         </IonGrid>

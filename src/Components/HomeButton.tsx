@@ -17,19 +17,7 @@ const HomeButton: React.FC = () => {
       }}
       shape="round"
     >
-      <IonIcon
-        style={{ color: iconColor }}
-        className="homebutton-icon"
-        slot="start"
-        icon={home}
-      />
       <IonText className="content-text1-dark homebutton-text">Home</IonText>
-      <IonIcon
-        style={{ color: iconColor }}
-        className="homebutton-icon"
-        slot="end"
-        icon={bonfire}
-      />
     </IonButton>
   );
 };

@@ -23,12 +23,10 @@ const Projects: React.FC = () => {
   return (
     <IonPage className="projects-background">
       <IonContent className="projects-content">
+        <div className="projects-header">
+          <HomeButton />
+        </div>
         <IonGrid className="projects-grid">
-          <IonRow className="projects-row">
-            <IonCol className="center-col">
-              <HomeButton />
-            </IonCol>
-          </IonRow>
           <IonRow className="aboutme-row">
             <IonCol size="auto">
               <IonIcon icon={briefcase} size="large" />
@@ -36,7 +34,7 @@ const Projects: React.FC = () => {
             <IonCol offset="1">
               <IonText className="content-text1">
                 <strong>Pack Scheduler: </strong>
-                <i>Java, JUNIT, Lucidchart</i>
+                <i>Java, JUNIT, Git</i>
               </IonText>
             </IonCol>
           </IonRow>
@@ -82,8 +80,8 @@ const Projects: React.FC = () => {
             </IonCol>
             <IonCol offset="1">
               <IonText className="content-text1">
-                <strong>Let's Meet: </strong>
-                <i>React, Google Cloud, PostgreSQL, Algorithm Design</i>
+                <strong>Calendar Merge: </strong>
+                <i>React, AWS, PostgreSQL, Algorithm Design</i>
               </IonText>
             </IonCol>
           </IonRow>

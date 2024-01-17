@@ -7,9 +7,8 @@
   padding-right: 1em;
 }
 
-.homebutton {
-}
-
 .homebutton:hover {
   --color: black;
+  opacity: 0.75;
+  transition: 500ms;
 }

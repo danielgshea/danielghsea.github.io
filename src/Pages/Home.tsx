@@ -36,7 +36,7 @@ const Home: React.FC = () => {
   function scrollToBottom() {
     // Passing a duration to the method makes it so the scroll slowly
     // goes to the bottom instead of instantly
-    contentRef.current?.scrollToBottom(1000);
+    contentRef.current?.scrollToBottom(1750);
   }
 
   return (

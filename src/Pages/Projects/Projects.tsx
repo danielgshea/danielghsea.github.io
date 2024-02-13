@@ -8,7 +8,7 @@ import {
   IonText,
 } from "@ionic/react";
 import React from "react";
-import HomeButton from "../Components/HomeButton";
+import HomeButton from "../../Components/HomeButton";
 import "./Projects.css";
 import {
   briefcase,
@@ -16,7 +16,6 @@ import {
   map,
   phonePortrait,
   barChart,
-  business,
 } from "ionicons/icons";
 
 const Projects: React.FC = () => {
@@ -27,10 +26,15 @@ const Projects: React.FC = () => {
           <HomeButton />
         </div>
         <IonGrid className="projects-grid">
-          <IonRow className="aboutme-row">
+          <IonRow>
             <IonCol size="auto">
               <IonIcon icon={briefcase} size="large" />
             </IonCol>
+            <IonCol>
+              <IonText className="header-text3">School</IonText>
+            </IonCol>
+          </IonRow>
+          <IonRow className="aboutme-row">
             <IonCol offset="1">
               <IonText className="content-text1">
                 <strong>Pack Scheduler: </strong>
@@ -39,9 +43,6 @@ const Projects: React.FC = () => {
             </IonCol>
           </IonRow>
           <IonRow className="aboutme-row">
-            <IonCol size="auto">
-              <IonIcon icon={business} size="large" />
-            </IonCol>
             <IonCol offset="1">
               <IonText className="content-text1">
                 <strong>Project Scrum Manager: </strong>
@@ -49,10 +50,15 @@ const Projects: React.FC = () => {
               </IonText>
             </IonCol>
           </IonRow>
-          <IonRow className="aboutme-row">
+          <IonRow>
             <IonCol size="auto">
               <IonIcon icon={map} size="large" />
             </IonCol>
+            <IonCol>
+              <IonText className="header-text3">IEC Lab</IonText>
+            </IonCol>
+          </IonRow>
+          <IonRow className="aboutme-row">
             <IonCol offset="1">
               <IonText className="content-text1">
                 <strong>HEAT Interactive Map: </strong>
@@ -61,9 +67,25 @@ const Projects: React.FC = () => {
             </IonCol>
           </IonRow>
           <IonRow className="aboutme-row">
-            <IonCol size="auto">
-              <IonIcon icon={phonePortrait} size="large" />
+            <IonCol offset="1">
+              <IonText className="content-text1">
+                <strong>Learning From Faliure: </strong>
+                <i>
+                  Excel, Data analysis, communication, literature review,
+                  research, LLM fine tuning
+                </i>
+              </IonText>
             </IonCol>
+          </IonRow>
+          <IonRow>
+            <IonCol size="auto">
+              <IonIcon icon={barChart} size="large" />
+            </IonCol>
+            <IonCol>
+              <IonText className="header-text3">Professional</IonText>
+            </IonCol>
+          </IonRow>
+          <IonRow className="aboutme-row">
             <IonCol offset="1">
               <IonText className="content-text1">
                 <strong>MS Community: </strong>
@@ -74,28 +96,19 @@ const Projects: React.FC = () => {
               </IonText>
             </IonCol>
           </IonRow>
-          <IonRow className="aboutme-row">
+          <IonRow>
             <IonCol size="auto">
               <IonIcon icon={calendar} size="large" />
             </IonCol>
+            <IonCol>
+              <IonText className="header-text3">Personal</IonText>
+            </IonCol>
+          </IonRow>
+          <IonRow className="aboutme-row">
             <IonCol offset="1">
               <IonText className="content-text1">
                 <strong>Calendar Merge: </strong>
                 <i>React, AWS, PostgreSQL, Algorithm Design</i>
-              </IonText>
-            </IonCol>
-          </IonRow>
-          <IonRow className="aboutme-row">
-            <IonCol size="auto">
-              <IonIcon icon={barChart} size="large" />
-            </IonCol>
-            <IonCol offset="1">
-              <IonText className="content-text1">
-                <strong>Buy or Sell: </strong>
-                <i>
-                  Data Collection + Processing, Python - Pandas, Model Training
-                  + Evaluation
-                </i>
               </IonText>
             </IonCol>
           </IonRow>

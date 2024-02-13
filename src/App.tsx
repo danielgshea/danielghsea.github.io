@@ -5,11 +5,11 @@ import "./App.css";
 import { IonApp, IonRouterOutlet, setupIonicReact } from "@ionic/react";
 import { IonReactHashRouter, IonReactRouter } from "@ionic/react-router";
 import { Route, Switch } from "react-router-dom";
-import Home from "./Pages/Home";
-import ContactMe from "./Pages/ContactMe";
-import Projects from "./Pages/Projects";
-import Coursework from "./Pages/Coursework";
-import AboutMe from "./Pages/AboutMe";
+import Home from "./Pages/Home/Home";
+import ContactMe from "./Pages/ContactMe/ContactMe";
+import Projects from "./Pages/Projects/Projects";
+import Coursework from "./Pages/Coursework/Coursework";
+import AboutMe from "./Pages/AboutMe/AboutMe";
 import Navbar from "./Components/Navbar";
 
 setupIonicReact();

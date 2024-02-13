@@ -1,38 +1,35 @@
-.contactme-background {
-  background: url("../Assets/COE4.jpg"),
-    linear-gradient(45deg, var(--color4), var(--color5));
+.coursework-background {
+  background: url("../../Assets/COE3.jfif"),
+    linear-gradient(45deg, var(--color2), var(--color5));
   background-blend-mode: soft-light;
   background-size: cover;
   background-position: center;
 }
 
-.contactme-content {
+.coursework-content {
   --background: none;
 }
 
-.contactme-grid {
+.coursework-grid {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 100px;
-  margin-top: 0;
-  background-color: var(--color1-transparent);
+  margin-bottom: 5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: var(--color7-transparent);
 }
 
-.contactme-row {
+.coursework-row {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.contactme-header {
+.coursework-header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 20px;
-}
-
-.link {
-  color: white;
 }

@@ -7,12 +7,109 @@ body {
 :root {
   --color1: #272727;
   --color2: #747474;
-  --color3: #d21f3c;
-  --color4: #782a4f;
-  --color5: #1d3461;
-  --color6: #1f487e;
-  --color7: #247ba0;
+  --color3: #f7ebec;
+  --color4: #ddbdd5;
+  --color5: #ac9fbb;
+  --color6: #59656f;
+  --color7: #1d1e2c;
   --color8: #f3d9dc;
   --color9: #f5fbef;
   --color1-transparent: #272727c8;
+  --color3-transparent: #f7ebec46;
+  --color5-transparent: #1d346145;
+  --color7-transparent: #1d1e2c5f;
+}
+
+/** If the screen size is greater than 600px... */
+@media screen and (min-width: 601px) {
+  .heading1 {
+    color: white;
+    font-size: 50px;
+    font-weight: lighter;
+  }
+
+  .header-text1 {
+    color: white;
+    font-size: 2em;
+    font-weight: bolder;
+  }
+
+  .header-text2 {
+    color: rgb(63, 63, 63);
+    font-size: 2em;
+    font-weight: bolder;
+  }
+
+  .header-text3 {
+    color: rgb(255, 255, 255);
+    font-size: 1.7em;
+    font-weight: bolder;
+  }
+
+  .content-text1 {
+    color: white;
+    font-size: 1.5em;
+  }
+
+  .content-text2 {
+    color: white;
+    font-size: 1.5em;
+  }
+
+  .content-text1-dark {
+    color: black;
+    font-size: 1.5em;
+  }
+
+  .content-text2-dark {
+    color: black;
+    font-size: 1.2em;
+  }
+}
+
+/** If the screen size is less than or 600px... */
+@media screen and (max-width: 600px) {
+  .heading1 {
+    color: white;
+    font-size: 40px;
+    font-weight: lighter;
+  }
+
+  .header-text1 {
+    color: white;
+    font-size: 1.7em;
+    font-weight: bolder;
+  }
+
+  .header-text2 {
+    color: rgb(63, 63, 63);
+    font-size: 1.7em;
+    font-weight: bolder;
+  }
+
+  .header-text3 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    font-weight: bolder;
+  }
+
+  .content-text1 {
+    color: white;
+    font-size: 1.2em;
+  }
+
+  .content-text2 {
+    color: white;
+    font-size: 1.2em;
+  }
+
+  .content-text1-dark {
+    color: black;
+    font-size: 1.2em;
+  }
+
+  .content-text2-dark {
+    color: black;
+    font-size: 1.2em;
+  }
 }

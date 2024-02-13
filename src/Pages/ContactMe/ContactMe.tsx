@@ -8,7 +8,7 @@ import {
   IonText,
 } from "@ionic/react";
 import React from "react";
-import HomeButton from "../Components/HomeButton";
+import HomeButton from "../../Components/HomeButton";
 import "./ContactMe.css";
 import { mail, logoLinkedin } from "ionicons/icons";
 

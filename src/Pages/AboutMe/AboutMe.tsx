@@ -14,13 +14,9 @@ import {
 import React from "react";
 import "./AboutMe.css";
 import { cog, construct, school, barChart } from "ionicons/icons";
-import Navbar from "../Components/Navbar";
-import { useHistory } from "react-router-dom";
-import HomeButton from "../Components/HomeButton";
+import HomeButton from "../../Components/HomeButton";
 
 const AboutMe: React.FC = () => {
-  const history = useHistory();
-
   return (
     <IonPage className="aboutme-background">
       <IonContent className="aboutme-content">
@@ -28,37 +24,44 @@ const AboutMe: React.FC = () => {
           <HomeButton />
         </div>
         <IonGrid className="aboutme-grid">
-          <IonRow className="aboutme-row">
-            <IonCol size="auto">
-              <IonIcon icon={cog} size="large" />
+          <IonRow>
+            <IonCol>
+              <IonText className="header-text3">Bio</IonText>
             </IonCol>
+          </IonRow>
+          <IonRow className="aboutme-row">
             <IonCol offset="1">
               <IonText className="content-text1">
                 Current student, software engineer, and art lover, I currently
-                attend North Carolina State University in Raleigh, N.C.
+                attend North Carolina State University in Raleigh, North
+                Carolina.
               </IonText>
             </IonCol>
           </IonRow>
-          <IonRow className="aboutme-row">
-            <IonCol size="auto">
-              <IonIcon icon={construct} size="large" />
+          <IonRow>
+            <IonCol>
+              <IonText className="header-text3">Before University</IonText>
             </IonCol>
+          </IonRow>
+          <IonRow className="aboutme-row">
             <IonCol offset="1">
               <IonText className="content-text1">
-                Starting off with Khan Academy coding projects in 2012, I
+                It all began with Khan Academy coding projects in 2012. I
                 quickly grew fond of programming. I appreciated the dynamic
                 problem solving and creative nature that is required to succeed
-                in software development. Over the years I accrued skills in
-                computer programming - learning HTML, CSS, JS, React, and
-                Typescript. In 2022, I started my bachelors degree in Computer
-                Science with NC State's College of Engineering.
+                in software development. Over the years I acquired skills in
+                computer programming - learning Java, C, HTML, CSS, Javascript,
+                React, and Typescript. In 2022, I started my bachelors degree in
+                Computer Science with NC State's College of Engineering.
               </IonText>
             </IonCol>
           </IonRow>
-          <IonRow className="aboutme-row">
-            <IonCol size="auto">
-              <IonIcon icon={school} size="large" />
+          <IonRow>
+            <IonCol>
+              <IonText className="header-text3">University</IonText>
             </IonCol>
+          </IonRow>
+          <IonRow className="aboutme-row">
             <IonCol offset="1">
               <IonText className="content-text1">
                 At North Carolina State University I was introduced to a
@@ -72,10 +75,12 @@ const AboutMe: React.FC = () => {
               </IonText>
             </IonCol>
           </IonRow>
-          <IonRow className="aboutme-row">
-            <IonCol size="auto">
-              <IonIcon icon={barChart} size="large" />
+          <IonRow>
+            <IonCol>
+              <IonText className="header-text3">Currently</IonText>
             </IonCol>
+          </IonRow>
+          <IonRow className="aboutme-row">
             <IonCol offset="1">
               <IonText className="content-text1">
                 I am currently seeking an opportunity to apply my skills in

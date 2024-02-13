@@ -8,7 +8,7 @@ import {
   IonIcon,
 } from "@ionic/react";
 import React from "react";
-import HomeButton from "../Components/HomeButton";
+import HomeButton from "../../Components/HomeButton";
 import "./Coursework.css";
 import { caretForward } from "ionicons/icons";
 
@@ -21,9 +21,6 @@ const Coursework: React.FC = () => {
         </div>
         <IonGrid className="coursework-grid">
           <IonRow>
-            <IonCol size="auto">
-              <IonIcon icon={caretForward} size="large" />
-            </IonCol>
             <IonCol offset="1">
               <IonText className="content-text1">
                 <strong>Discrete Math for Computer Scientists: </strong>
@@ -37,9 +34,6 @@ const Coursework: React.FC = () => {
             </IonCol>
           </IonRow>
           <IonRow>
-            <IonCol size="auto">
-              <IonIcon icon={caretForward} size="large" />
-            </IonCol>
             <IonCol offset="1">
               <IonText className="content-text1">
                 <strong>Software Development Fundamentals: </strong>
@@ -49,9 +43,6 @@ const Coursework: React.FC = () => {
             </IonCol>
           </IonRow>
           <IonRow>
-            <IonCol size="auto">
-              <IonIcon icon={caretForward} size="large" />
-            </IonCol>
             <IonCol offset="1">
               <IonText className="content-text1">
                 <strong>Automata, Grammars, and Computability: </strong>
@@ -62,9 +53,6 @@ const Coursework: React.FC = () => {
             </IonCol>
           </IonRow>
           <IonRow>
-            <IonCol size="auto">
-              <IonIcon icon={caretForward} size="large" />
-            </IonCol>
             <IonCol offset="1">
               <IonText className="content-text1">
                 <strong>C and Software Tools: </strong>
@@ -75,9 +63,6 @@ const Coursework: React.FC = () => {
             </IonCol>
           </IonRow>
           <IonRow>
-            <IonCol size="auto">
-              <IonIcon icon={caretForward} size="large" />
-            </IonCol>
             <IonCol offset="1">
               <IonText className="content-text1">
                 <strong>Data Structures and Algorithms: </strong>
@@ -87,9 +72,6 @@ const Coursework: React.FC = () => {
             </IonCol>
           </IonRow>
           <IonRow>
-            <IonCol size="auto">
-              <IonIcon icon={caretForward} size="large" />
-            </IonCol>
             <IonCol offset="1">
               <IonText className="content-text1">
                 <strong>Calculus I, II, III</strong>
@@ -97,9 +79,6 @@ const Coursework: React.FC = () => {
             </IonCol>
           </IonRow>
           <IonRow>
-            <IonCol size="auto">
-              <IonIcon icon={caretForward} size="large" />
-            </IonCol>
             <IonCol offset="1">
               <IonText className="content-text1">
                 <strong>Physics for Engineers 1</strong>
@@ -107,9 +86,6 @@ const Coursework: React.FC = () => {
             </IonCol>
           </IonRow>
           <IonRow>
-            <IonCol size="auto">
-              <IonIcon icon={caretForward} size="large" />
-            </IonCol>
             <IonCol offset="1">
               <IonText className="content-text1">
                 <strong>Computing Environments: </strong>
@@ -119,9 +95,6 @@ const Coursework: React.FC = () => {
             </IonCol>
           </IonRow>
           <IonRow>
-            <IonCol size="auto">
-              <IonIcon icon={caretForward} size="large" />
-            </IonCol>
             <IonCol offset="1">
               <IonText className="content-text1">
                 <strong>Principles of Microeconomics</strong>
@@ -129,9 +102,6 @@ const Coursework: React.FC = () => {
             </IonCol>
           </IonRow>
           <IonRow>
-            <IonCol size="auto">
-              <IonIcon icon={caretForward} size="large" />
-            </IonCol>
             <IonCol offset="1">
               <IonText className="content-text1">
                 <strong>Introduction to Computing: Java</strong>

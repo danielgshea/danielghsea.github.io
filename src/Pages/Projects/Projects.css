@@ -1,6 +1,6 @@
 .projects-background {
-  background: url("../Assets/COE2.jpg"),
-    linear-gradient(45deg, var(--color4), var(--color5));
+  background: url("../../Assets/COE2.jpg"),
+    linear-gradient(45deg, var(--color2), var(--color5));
   background-blend-mode: soft-light;
   background-size: cover;
   background-position: center;
@@ -28,7 +28,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 100px;
-  margin-top: 0;
-  background-color: var(--color1-transparent);
+  margin-bottom: 5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: var(--color7-transparent);
 }

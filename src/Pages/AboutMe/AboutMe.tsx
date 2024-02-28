@@ -83,8 +83,18 @@ const AboutMe: React.FC = () => {
           <IonRow className="aboutme-row">
             <IonCol offset="1">
               <IonText className="content-text1">
-                I am currently seeking an opportunity to apply my skills in
-                software engineering for summer 2024.
+                I have accepted a role with{" "}
+                <a
+                  className="link"
+                  href="https://www.siemens.com/global/en/products/energy/energy-automation-and-smart-grid/world-of-energy-automation.html"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Siemens
+                </a>{" "}
+                as a project management intern for summer 2024. I will be
+                working in their Electrification and Automation division
+                learning from and contributing to the incredible team there.
               </IonText>
             </IonCol>
           </IonRow>

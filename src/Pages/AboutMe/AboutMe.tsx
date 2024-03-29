@@ -83,7 +83,7 @@ const AboutMe: React.FC = () => {
           <IonRow className="aboutme-row">
             <IonCol offset="1">
               <IonText className="content-text1">
-                I have accepted a role with{" "}
+                I have accepted a role with {" "}
                 <a
                   className="link"
                   href="https://www.siemens.com/global/en/products/energy/energy-automation-and-smart-grid/world-of-energy-automation.html"

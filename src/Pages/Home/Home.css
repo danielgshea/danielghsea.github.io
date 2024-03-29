@@ -132,6 +132,9 @@ ion-row {
   transition: 1500ms;
 }
 
+.router-link {
+  text-decoration: none;
+}
 .router-link:hover {
   cursor: pointer;
 }

@@ -56,5 +56,6 @@ ion-icon {
 }
 
 .link {
-  color: white;
+  color: rgb(158, 158, 255);
+  text-decoration: none;
 }

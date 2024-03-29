@@ -13,9 +13,6 @@ import React, { createRef } from "react";
 import { Typewriter } from "react-simple-typewriter";
 import "./Home.css";
 import { Link } from "react-router-dom";
-import Navbar from "../../Components/Navbar";
-import { arrowDown } from "ionicons/icons";
-import TextCollage from "../../Components/TextCollage";
 
 const Home: React.FC = () => {
   return (

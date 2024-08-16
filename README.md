@@ -1,4 +1,4 @@
-# Daniel Shea File
+# Daniel Shea Website
 
 This is my website - built using React and Nginx
 

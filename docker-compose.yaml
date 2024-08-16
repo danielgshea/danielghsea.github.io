@@ -1,0 +1,13 @@
+# This file was made with the help of chatgpt
+services:
+  app:
+    # You can replace this with your actual image name or build context
+    build: .
+    ports:
+      - "80:80"
+    # Add any other necessary configurations for your app here
+    # For example:
+    # environment:
+    #   - NODE_ENV=production
+    # volumes:
+    #   - ./app:/usr/src/app

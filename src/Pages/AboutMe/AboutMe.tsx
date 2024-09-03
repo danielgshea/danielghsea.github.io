@@ -67,11 +67,7 @@ const AboutMe: React.FC = () => {
                 At North Carolina State University I was introduced to a
                 plethora of supportive mentors, professors, and colleagues. In
                 my classes, I became proficient in computer science and
-                mathematical topics alike. As a second year computer science
-                student, I have completed projects using Java and JUnit.
-                Currently, I am working on developing independent projects as
-                well as projects with the Innovative Educational Computing
-                Laboratory.
+                mathematical topics alike. I am now in my third year at NC State diving deep into classes like operating systems and software engineering.
               </IonText>
             </IonCol>
           </IonRow>
@@ -83,7 +79,7 @@ const AboutMe: React.FC = () => {
           <IonRow className="aboutme-row">
             <IonCol offset="1">
               <IonText className="content-text1">
-                I have accepted a role with {" "}
+                I am working at {" "}
                 <a
                   className="link"
                   href="https://www.siemens.com/global/en/products/energy/energy-automation-and-smart-grid/world-of-energy-automation.html"
@@ -92,9 +88,7 @@ const AboutMe: React.FC = () => {
                 >
                   Siemens
                 </a>{" "}
-                as a project management intern for summer 2024. I will be
-                working in their Electrification and Automation division
-                learning from and contributing to the incredible team there.
+                as a systems engineering intern for the fall 2024 semester. I get to work with the engineering team to develop AI applications for internal processes.
               </IonText>
             </IonCol>
           </IonRow>

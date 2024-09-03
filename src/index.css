@@ -20,50 +20,54 @@ body {
   --color7-transparent: #1d1e2c5f;
 }
 
+a {
+  text-decoration: none;
+}
+
 /** If the screen size is greater than 600px... */
 @media screen and (min-width: 601px) {
   .heading1 {
     color: white;
-    font-size: 50px;
+    font-size: 2rem; /* Equivalent to h1 */
     font-weight: lighter;
   }
 
   .header-text1 {
     color: white;
-    font-size: 2em;
+    font-size: 1.5rem; /* Equivalent to h2 */
     font-weight: bolder;
   }
 
   .header-text2 {
     color: rgb(63, 63, 63);
-    font-size: 2em;
+    font-size: 1.5rem; /* Equivalent to h2 */
     font-weight: bolder;
   }
 
   .header-text3 {
     color: rgb(255, 255, 255);
-    font-size: 1.7em;
+    font-size: 1.17rem; /* Equivalent to h3 */
     font-weight: bolder;
   }
 
   .content-text1 {
     color: white;
-    font-size: 1.3em;
+    font-size: 1rem; /* Equivalent to p */
   }
 
   .content-text2 {
     color: white;
-    font-size: 1.3em;
+    font-size: 1rem; /* Equivalent to p */
   }
 
   .content-text1-dark {
     color: black;
-    font-size: 1.3em;
+    font-size: 1rem; /* Equivalent to p */
   }
 
   .content-text2-dark {
     color: black;
-    font-size: 1.2em;
+    font-size: 1rem; /* Equivalent to p */
   }
 }
 

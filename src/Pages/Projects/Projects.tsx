@@ -37,6 +37,14 @@ const Projects: React.FC = () => {
           <IonRow className="aboutme-row">
             <IonCol offset="1">
               <IonText className="content-text1">
+                <strong>Coffee Maker: </strong>
+                <i>Java, SQL, JDBC, Git, React, Spring Boot</i>
+              </IonText>
+            </IonCol>
+          </IonRow>
+          <IonRow className="aboutme-row">
+            <IonCol offset="1">
+              <IonText className="content-text1">
                 <strong>Pack Scheduler: </strong>
                 <i>Java, JUNIT, Git</i>
               </IonText>
@@ -96,6 +104,16 @@ const Projects: React.FC = () => {
               </IonText>
             </IonCol>
           </IonRow>
+          <IonRow className="aboutme-row">
+            <IonCol offset="1">
+              <IonText className="content-text1">
+                <strong>Siemens Wiki Search Tool: </strong>
+                <i>
+                  FastAPI, React, openaiAPI, Docker, SQL, RAG methodologies
+                </i>
+              </IonText>
+            </IonCol>
+          </IonRow>
           <IonRow>
             <IonCol size="auto">
               <IonIcon icon={calendar} size="large" />
@@ -107,8 +125,8 @@ const Projects: React.FC = () => {
           <IonRow className="aboutme-row">
             <IonCol offset="1">
               <IonText className="content-text1">
-                <strong>Calendar Merge: </strong>
-                <i>React, AWS, PostgreSQL, Algorithm Design</i>
+                <strong>What the sort: </strong>
+                <i>React, Javascript, Algorithm Design</i>
               </IonText>
             </IonCol>
           </IonRow>

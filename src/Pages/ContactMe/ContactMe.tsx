@@ -26,7 +26,6 @@ const ContactMe: React.FC = () => {
             </IonCol>
             <IonCol offset="1">
               <IonText className="content-text1">
-                <strong>Email: </strong>
                 <a
                   className="link"
                   href="mailto:danielgshea@gmail.com?"

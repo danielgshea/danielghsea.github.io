@@ -107,9 +107,9 @@ const Projects: React.FC = () => {
           <IonRow className="aboutme-row">
             <IonCol offset="1">
               <IonText className="content-text1">
-                <strong>Siemens Wiki Search Tool: </strong>
+                <strong>Siemens Internal Search Tool: </strong>
                 <i>
-                  FastAPI, React, openaiAPI, Docker, SQL, RAG methodologies
+                  FastAPI, React, openaiAPI, Docker, SQL, RAG architecture
                 </i>
               </IonText>
             </IonCol>

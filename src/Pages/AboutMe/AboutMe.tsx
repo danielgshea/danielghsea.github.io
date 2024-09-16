@@ -88,7 +88,7 @@ const AboutMe: React.FC = () => {
                 >
                   Siemens
                 </a>{" "}
-                as a systems engineering intern for the fall 2024 semester. I get to work with the engineering team to develop AI applications for internal processes.
+                as a software engineering intern for the fall 2024 semester. I get to work with the engineering team to develop AI applications for internal processes.
               </IonText>
             </IonCol>
           </IonRow>
